@@ -1,0 +1,96 @@
+<div class="hero heading--dark-orange heading--desktop--white text--dark-orange text--desktop--white svg--yellow" style="background-image: url('/assets/images/<%- bodyclass %>/hero.jpg');">
+  <p class="read-time text--yellow">
+    <svg class="icon icon-read-time-ring-dims">
+      <use xlink:href="#read-time-ring"></use>
+    </svg>
+    <span data-figure="4" data-speed="1000">0</span>
+    <span>mins</span>
+  </p>
+
+
+  <div class="hero__content">
+    <p class="mag-title heading text--dark-red">What’s Next?</p>
+    <h1><%- heroTitle %></h1>
+    <p><%- heroDesc %></p>
+  </div>
+</div>
+
+<div class="content-wrapper">
+
+  <div class="intro intro--full-width heading--dark-red text--dark-red background--opacity--yellow">
+    <p class="lead-in"><%- introOne %></p>
+    <p><%- introTwo %></p>
+  </div>
+
+  <div class="column">
+    <div class="text heading--orange">
+      <h2><%- sectionOneHeading %></h2>
+      <p><%- sectionOneDesc %></p>
+    </div>
+    <div class="image">
+      <img src="/assets/images/<%- bodyclass %>/image-1.jpg" />
+    </div>
+  </div>
+
+  <div class="column pull-left">
+    <div class="pull background--dark-orange svg--orange text--white">
+      <div id="icon-animated-coin-drop" class="bodymovin" data-bm-type="svg"  data-animation-path="/assets/javascripts/animations/icon-animated-coin-drop.json"></div>
+      <p><%- pullOne %></p>
+    </div>
+    <div class="text heading--orange">
+      <h2><%- sectionTwoHeading %></h2>
+      <p><%- sectionTwoDesc %></p>
+    </div>
+  </div>
+
+  <div class="feature three-col">
+
+    <img src="/assets/images/<%- bodyclass %>/image-2.jpg" />
+
+    <div class="text background--opacity--orange text--white heading--yellow">
+      <div class="text-wrap">
+        <h2><%- sectionThreeHeading %></h2>
+        <p><%- sectionThreeDesc %></p>
+      </div>
+    </div>
+
+    <div class="stat background--white text--orange heading--dark-orange">
+      <div class="text-wrap">
+        <h2><span data-figure="20" data-speed="1500" class="count-figure">0</span>%</h2>
+        <p><%- statText %></p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="column pull-full">
+    <div class="pull background--lighter-grey svg--yellow text--dark-orange">
+      <div id="icon-animated-umbrella" class="bodymovin" data-bm-type="svg"  data-animation-path="/assets/javascripts/animations/icon-animated-umbrella.json"></div>
+      <p><%- pullTwo %></p>
+    </div>
+  </div>
+
+</div>
+
+<div class="related-articles background--lighter-grey heading--dark-red">
+  <h3>Like this article, try these…</h3>
+  
+  <a href="/articles/when-can-i-retire">
+    <span class="time text--darker-grey"><%- homeThreeTime %> mins</span>
+    <h4>When can I retire?</h4>
+    <span class="read-more text--red svg--red">
+      <svg class="icon icon-read-more-dims"> <use xlink:href="#read-more"></use> </svg>
+      <span>Read</span>
+    </span>
+  </a>
+  
+  <a href="/articles/a-rough-guide-to-workplace-savings">
+    <span class="time text--darker-grey"><%- homeFifteenTime %> mins</span>
+    <h4>A rough guide to workplace savings</h4>
+    <span class="read-more text--red svg--red">
+      <svg class="icon icon-read-more-dims"> <use xlink:href="#read-more"></use> </svg>
+      <span>Read</span>
+    </span>
+  </a>
+
+</div>
